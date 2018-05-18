@@ -1,0 +1,12 @@
+{
+  "name": "svg-poly2path",
+  "version": "1.0.0",
+  "description": "Converts SVG polygons to paths",
+  "main": "poly2path.js",
+  "author": "Jon Pearse",
+  "license": "MIT",
+  "dependencies": {
+    "command-line-args": "^5.0.2",
+    "jsdom": "^11.10.0"
+  }
+}
