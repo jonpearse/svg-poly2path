@@ -1,0 +1,50 @@
+{
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 6
+  },
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": "eslint:recommended",
+  "rules": {
+    "array-bracket-spacing": [ "error", "always" ],
+    "arrow-parens": [ "error", "as-needed" ],
+    "arrow-spacing": "error",
+    "block-scoped-var": "warn",
+    "brace-style": [ "error", "allman", {
+        "allowSingleLine": true
+    }],
+    "camelcase": [ "error", {
+      "properties": "never" }
+    ],
+    "comma-dangle": ["warn", "only-multiline"],
+    "comma-style": ["error", "last"],
+    "complexity": ["error", 6],
+    "dot-notation": "error",
+    "eol-last": "error",
+    "eqeqeq": "error",
+    "indent": "error",
+    "max-len": ["warn", 140, {
+        "ignoreComments": true,
+        "ignoreUrls": true
+    }],
+    "new-cap": "error",
+    "no-bitwise": "error",
+    "no-caller": "error",
+    "no-console": "off",
+    "no-debugger": "warn",
+    "no-self-compare": "warn",
+    "no-use-before-define": "warn",
+    "no-var": "error",
+    "quotes": ["error", "single"],
+    "space-before-blocks": ["error", "always"],
+    "space-infix-ops": "error",
+    "valid-jsdoc": ["warn", {
+        "requireReturn": false
+    }],
+    "wrap-iife": "error",
+  }
+}
